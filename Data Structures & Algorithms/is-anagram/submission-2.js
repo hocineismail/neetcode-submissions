@@ -1,0 +1,11 @@
+class Solution {
+    /**
+     * @param {string} s
+     * @param {string} t
+     * @return {boolean}
+     */
+    isAnagram(s, t) { 
+        return t.split("").sort().join("") ===  s.split("").sort().join("")
+        
+    }
+}
